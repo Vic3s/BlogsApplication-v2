@@ -1,0 +1,22 @@
+.blog-container-details {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-container-details .blog-title-container {
+  height: 120px;
+}
+.blog-container-details .blog-title-container .title-blog {
+  font-size: 40px;
+}
+.blog-container-details .blog-content-container {
+  margin-bottom: 40px;
+}
+.blog-container-details .blog-content-container .content {
+  margin-left: 0px;
+}
+.blog-container-details .author span {
+  color: crimson;
+}
+
+/*# sourceMappingURL=details_page.css.map */

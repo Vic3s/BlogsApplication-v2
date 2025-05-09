@@ -1,0 +1,44 @@
+.blogs-icon{
+    width: 30px;
+    height: 30px;
+}
+.create-icon{
+    width: 20px;
+    height: 20px;
+}
+.account-icon{
+    width: 30px;
+    height: 30px;
+}
+.search-bar-content{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+    .search-bar-body{
+        width: 250px;
+        height: 35px;
+        background-color: white;
+        border: gray 1px solid;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        
+        .search-bar{
+            form{
+                input{
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,65 @@
+.create-blog form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.create-blog input, .create-blog textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.create-blog label {
+  display: block;
+  margin-top: 24px;
+}
+.create-blog button {
+  margin-top: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+textarea {
+  height: 120px;
+}
+
+.title:hover {
+  color: red;
+}
+
+.snippet:hover {
+  color: red;
+}
+
+.details {
+  position: relative;
+}
+
+.author {
+  margin-top: 40px;
+}
+
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 8px;
+}
+.delete :hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.heading1 {
+  padding-bottom: 20px;
+}
+
+.line {
+  margin: 20px 20px 20px 8px;
+}
+
+/*# sourceMappingURL=create_page.css.map */

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+p, h1, h2, h3, a, ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+
+.blogs-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogs-page .heading-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.blogs-page .heading-content .heading-text .heading1 {
+  width: 100%;
+  font-family: "City Mango", sans-serif;
+  font-size: 70px;
+}
+.blogs-page .heading-content .heading-text .heading1 span {
+  font-size: 100px;
+  color: crimson;
+}
+.blogs-page .heading-content .heading-text .under-heding {
+  font-size: 27px;
+  width: 100%;
+}
+.blogs-page .heading-content .heading-image img {
+  height: 300px;
+  width: 300px;
+}
+.blogs-page .blogs-body {
+  width: 1044px;
+}
+.blogs-page .blogs-body .blog-content .single-blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.blogs-page .blogs-body .blog-content .single-blog .image-blog {
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogs-page .blogs-body .blog-content .single-blog .image-blog img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blogs-page .blogs-body .blog-content .single-blog .snippit {
+  margin-bottom: 20px;
+  color: rgb(127, 127, 127);
+}
+.blogs-page .blogs-body .blog-content .single-blog .title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blogs-page .blogs-body .blog-content .single-blog .addings {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.blogs-page .blogs-body .blog-content .single-blog .addings .likes {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.blogs-page .blogs-body .blog-content .single-blog .addings .likes img {
+  width: 20px;
+  height: 20px;
+}
+.blogs-page .blogs-body .blog-content .single-blog .addings .likes img:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=blogs_page.css.map */

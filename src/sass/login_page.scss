@@ -1,0 +1,117 @@
+.main-container-login{
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .login-card{
+        width: 450px;
+        background: #6b0000;
+        background: linear-gradient(0deg,rgba(107, 0, 0, 1) 0%, rgba(220, 20, 60, 1) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        h1{
+          font-family: 'City Mango', sans-serif;
+          color: white;
+          font-size: 60px;
+          span{
+            font-size: 70px;
+          }
+        }
+    }
+      
+    .login-form-container{
+        width: 450px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        .signup-redirect {
+            margin-top: 10px;
+            text-align: center;
+      
+            .link-signup{
+              a{
+                color: #dc143c;
+                &:hover {
+                  color: #9d0322;
+                }
+              }
+            }
+          }
+
+        .forgot-password-container{
+            a{
+                color: #dc143c;
+                &:hover {
+                  color: #9d0322;
+                }
+              }
+        }
+
+        form{
+            width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .login-inputs{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 30px;
+                .input-container{
+                    width: 80%;
+                    input{
+                        display: block;
+                        display: block;
+                        width: 100%;
+                        margin: 10px 0;
+                        padding: 4px;
+                        border: none;
+                        border-bottom: 1px solid rgb(181, 181, 181);
+                        outline: none;
+                    }
+                    label{
+                        display: block;
+                        margin-top: 24px;
+                        color: gray
+        
+                    }
+                }            
+            }            
+            button{
+                margin-top: 20px;
+                background: crimson;
+                color: white;
+                padding: 6px;
+                border: 0;
+                font-size: 1.2em;
+                cursor: pointer;
+                border-radius: 5px;
+                &:hover{
+                background-color: #ef4c6d;
+                transition: all ease-in-out 0.2s;
+
+                }
+            }
+        }
+        
+        .login-title{
+            text-align: center;
+            font-size: 35px;
+            margin-top: 70px;
+    
+        }
+    }
+
+   
+
+  }
+  

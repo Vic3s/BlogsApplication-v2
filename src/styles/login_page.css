@@ -1,0 +1,99 @@
+.main-container-login {
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main-container-login .login-card {
+  width: 450px;
+  background: #6b0000;
+  background: linear-gradient(0deg, rgb(107, 0, 0) 0%, rgb(220, 20, 60) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container-login .login-card h1 {
+  font-family: "City Mango", sans-serif;
+  color: white;
+  font-size: 60px;
+}
+.main-container-login .login-card h1 span {
+  font-size: 70px;
+}
+.main-container-login .login-form-container {
+  width: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.main-container-login .login-form-container .signup-redirect {
+  margin-top: 10px;
+  text-align: center;
+}
+.main-container-login .login-form-container .signup-redirect .link-signup a {
+  color: #dc143c;
+}
+.main-container-login .login-form-container .signup-redirect .link-signup a:hover {
+  color: #9d0322;
+}
+.main-container-login .login-form-container .forgot-password-container a {
+  color: #dc143c;
+}
+.main-container-login .login-form-container .forgot-password-container a:hover {
+  color: #9d0322;
+}
+.main-container-login .login-form-container form {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container-login .login-form-container form .login-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-container-login .login-form-container form .login-inputs .input-container {
+  width: 80%;
+}
+.main-container-login .login-form-container form .login-inputs .input-container input {
+  display: block;
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 4px;
+  border: none;
+  border-bottom: 1px solid rgb(181, 181, 181);
+  outline: none;
+}
+.main-container-login .login-form-container form .login-inputs .input-container label {
+  display: block;
+  margin-top: 24px;
+  color: gray;
+}
+.main-container-login .login-form-container form button {
+  margin-top: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main-container-login .login-form-container form button:hover {
+  background-color: #ef4c6d;
+  transition: all ease-in-out 0.2s;
+}
+.main-container-login .login-form-container .login-title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 70px;
+}
+
+/*# sourceMappingURL=login_page.css.map */
